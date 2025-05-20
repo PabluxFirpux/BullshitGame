@@ -1,0 +1,19 @@
+[gd_scene load_steps=3 format=3 uid="uid://c0irn4xsdqwki"]
+
+[ext_resource type="Script" uid="uid://d0bprafg0re8g" path="res://Scripts/hand.gd" id="1_bo1nx"]
+[ext_resource type="PackedScene" uid="uid://dquwoidh1mhsr" path="res://Scenes/card.tscn" id="2_8gbba"]
+
+[node name="Main" type="Node2D"]
+
+[node name="Hand" type="Node2D" parent="."]
+script = ExtResource("1_bo1nx")
+
+[node name="Card" parent="Hand" instance=ExtResource("2_8gbba")]
+position = Vector2(462, 293)
+suit = 1
+symbol = 12
+
+[node name="Card2" parent="Hand" instance=ExtResource("2_8gbba")]
+position = Vector2(237, 245)
+suit = 2
+symbol = 4
