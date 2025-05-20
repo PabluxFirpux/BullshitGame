@@ -1,5 +1,4 @@
-extends Node2D
-class_name Card
+class_name Card extends Node2D
 
 @export var suit: Suits
 @export var symbol: Symbol

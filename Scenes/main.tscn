@@ -9,11 +9,15 @@
 script = ExtResource("1_bo1nx")
 
 [node name="Card" parent="Hand" instance=ExtResource("2_8gbba")]
-position = Vector2(462, 293)
 suit = 1
-symbol = 12
+symbol = 11
 
 [node name="Card2" parent="Hand" instance=ExtResource("2_8gbba")]
-position = Vector2(237, 245)
+
+[node name="Card3" parent="Hand" instance=ExtResource("2_8gbba")]
 suit = 2
-symbol = 4
+symbol = 12
+
+[node name="Card4" parent="Hand" instance=ExtResource("2_8gbba")]
+suit = 3
+symbol = 10
